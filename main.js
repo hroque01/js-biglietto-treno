@@ -32,7 +32,7 @@ else if ( etaUtente >= 64) {
     let bigliettoScontato = (prezzoBiglietto - sconto).toFixed(2);
     // output
     // Prezzo calcolato
-    document.getElementById("tariffa").innerHTML = `E' stato applicato uno sconto del 20%.  Importo Totale: €${bigliettoScontato}. `;
+    document.getElementById("tariffa").innerHTML = `E' stato applicato uno sconto del 40%.  Importo Totale: €${bigliettoScontato}. `;
 }
 
 // se l'utente non rientra nelle categorie ha il prezzo pieno
